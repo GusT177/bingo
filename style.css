@@ -2,17 +2,31 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: system-ui;
     }
     
     body {
       display: flex;
       text-align: center;
-      background-image: url('./images/escola.png');
-      background-repeat: no-repeat;
-      background-size: 300px;
       background-color: rgb(35, 5, 53);
       width: 100%;
       height: 100vh;
+    }
+
+    header{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 10rem;
+    }
+
+    .logo{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      width: 15rem;
+      height: 10rem;
     }
 
     .bingo-container {
@@ -66,7 +80,7 @@
       border-radius: 5px; /* Bordas arredondadas */
     }
     .cell.clicked {
-      background-color: #ff8800;
+      background-color: #cfccc7;
       color: white;
       transform: scale(1.1);
     }
